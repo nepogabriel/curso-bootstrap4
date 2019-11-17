@@ -1,0 +1,52 @@
+@charset "uft-8";
+
+.scrollspySite {
+	position: relative;
+	overflow: auto;
+	height: 330px;
+}
+
+/* SCROLLSPY */
+.menuscroll {
+	color: #ffc107;
+}
+
+.menuscroll:hover {
+	color: #fff;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+	background-color: #212529;
+}
+
+/* RODAPÉ */
+.curso {
+	padding: 50px 20px 20px 85px;
+	text-align: justify;
+	color: #fff;
+}
+
+.curso h3 {
+	font-weight: bold;
+	font-size: 2.2em;
+}
+
+.curso p {
+	font-size: 1em;
+}
+
+.menurodape a {
+	margin-bottom: 3px;
+	border-radius: 4px;
+}
+
+/* MEDIA */
+@media only screen and (max-width: 480px) {
+	.curso {padding: 20px 20px 20px 40px;}
+}
+
+@media only screen and (min-width: 601px;) {
+
+}
+
+@media only screen and (min-width: 993px;)
